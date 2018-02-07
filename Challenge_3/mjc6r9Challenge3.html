@@ -1,0 +1,70 @@
+<!--
+    name: Matthew Carroll
+    pawprint: mjc6r9
+    date: January 31, 2018
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Challenge 3</title>
+        <style>
+            #wrapper{
+                border: 10px outset whitesmoke;
+                border-radius: 100px;
+                padding: 10px;
+                margin: 20px auto;
+                width: 1088px;
+            }
+            .clear:after{
+                content: ""; 
+                display: table; 
+                clear: both;
+            }
+            h1, h2{
+                text-align: center;
+            }
+            .column{
+                border: 10px outset whitesmoke;
+                border-radius: 50px;
+                padding: 20px;
+                margin: 20px;
+                float: left;
+                text-align: justify;
+            }
+            #left{
+                width: 225px;
+                background-color: papayawhip;
+            }
+            #middle{
+                width: 378px;
+                background-color: cornflowerblue;
+            }
+            #right{
+                width: 185px;
+                background-color: firebrick;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper" class="clear">
+            <h1>CS2830 - Challenge 3</h1>
+            <div id="left" class="column">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut ultricies justo. Suspendisse iaculis placerat quam eu facilisis. Nulla nec ullamcorper odio. Fusce ultricies purus nec ornare hendrerit. Fusce id orci non neque condimentum tincidunt. Donec vel sem nulla. Nam eros dui, auctor nec mi sit amet, lacinia sagittis ex. Vestibulum id ullamcorper diam. Ut viverra augue tellus, at gravida elit euismod sed. Mauris sit amet odio nec nibh mollis porttitor. Nunc efficitur sem at risus commodo mattis. Donec laoreet ipsum ut ultricies eleifend.
+            Proin sollicitudin, enim id luctus ullamcorper, ex purus feugiat sapien, id cursus arcu justo ac ligula. Vestibulum porttitor, justo at interdum scelerisque, mauris turpis tincidunt nulla, consectetur faucibus arcu sapien nec nunc. Vivamus pharetra iaculis nunc, ac laoreet lectus viverra at.
+            </div>
+            <div id="middle" class="column"><p>3 Columns Width Calculations:</p>
+                <p>Physical Width = (Border Width * 2) + (Padding * 2) + (Margin * 2) + Content Width
+                </p>
+                <p>Left Physical Width = (10 * 2) + (20 * 2) + (20 * 2) + 225 = 325px</p>
+                <p>Middle Physical Width = (10 * 2) + (20 * 2) + (20 * 2) + 378 = 478px</p>
+                <p>Right Physical Width = (10 * 2) + (20 * 2) + (20 * 2) + 185 = 285px</p>
+                <p>Right Content Width = 1088 - (325 + 478 + 100) = 185px</p>
+                
+            </div>
+            <div id="right" class="column">Vestibulum efficitur nisi non elementum porttitor. Proin in eleifend ipsum, sit amet gravida sapien. Sed eu molestie magna. Duis tempor odio id enim pulvinar tincidunt. Donec ullamcorper lectus egestas, hendrerit leo vel, commodo nunc. Pellentesque a dui dolor. Phasellus eleifend nisi vitae turpis interdum, eu fringilla lacus cursus. Duis dapibus dignissim purus, sed elementum felis. Ut nulla turpis, sagittis eu sem eget, feugiat pretium nunc. Proin blandit metus eu fringilla dapibus. Nunc ac mi tristique, varius tortor non, blandit quam. Mauris a metus metus. Aliquam dictum consequat turpis nec finibus. Aenean euismod urna sapien, eget tempus ligula ornare sed.
+            </div>
+        </div>
+        <h2>Created By: Matthew Carroll</h2>
+    </body>
+</html>
