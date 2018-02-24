@@ -1,0 +1,34 @@
+<!--
+    name: Matthew Carroll
+    pawprint: mjc6r9
+    Date: February 23, 2018
+-->
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8" />
+        <title>Challenge 6</title>
+        <link rel="stylesheet" type="text/css" href="Mjc6r9Challenge6.css">
+<!--        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>-->
+        <script src="Mjc6r9Challenge6.js"></script>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <h1 id="title">CS2830 Challenge 6: Code Editor</h1>
+            <div id="contentWrapper" class="wrapper">
+                <div class="column wrapper">
+                    <textarea id="html" class="text content" cols="80" rows="20" name="html" placeholder="HTML holder" onclick="htmlChangeShadow()" ondblclick="htmlDisplay()"></textarea>
+                    <textarea id="css" class="text content" cols="80" rows="20" name="css" placeholder="CSS holder" onclick="cssChangeShadow()" ondblclick="cssDisplay()"></textarea>
+                </div>
+                <div id="pane" class="column preview content" onclick="paneChangeShadow()"></div>
+            </div>
+            <div id="bottomWrapper" class="wrapper">
+                <button id="launch" class="button" type="button" onclick="launchDiv()">Launch</button>
+                <button id="toggle" class="button" type="button" onclick="toggleDiv()">Toggle</button>
+                <button id="clear" class="button" type="button" onclick="clearDiv()" ondblclick="titlePrompt()">Clear</button>    
+                <h2 id="nickname">By: Matt</h2>
+            </div>
+        </form>
+    </body>
+</html>
